@@ -24,6 +24,10 @@ main {
 	position: relative;
 }
 
+.step-box:last-child {
+	margin-right: 0;
+}
+
 .step-num {
 	background-color: #FF9A4B;
 	color: #FFF;
@@ -32,9 +36,7 @@ main {
 	left: 0;
 	padding: 3px;
 }
-.step-box:last-child {
-	margin-right: 0;
-}
+
 .step-img1 {
 	height: 150px;
 	background-image: url(img/flow01.png);
@@ -58,4 +60,17 @@ main {
 
 .title {
 	margin: 15px 0 5px;
+}
+
+
+@media screen and (max-width:768px) {
+	main {
+		width: 90%;
+	}
+	.step-box {
+		width: 100%;
+		float: none;
+		display: block;
+		margin: 0 0 20px 0;
+	}
 }
