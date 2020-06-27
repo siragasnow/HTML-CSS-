@@ -64,12 +64,12 @@ header {
 	width: 920px;
 	padding: 90px 0;
 	margin: 0 auto;
-	text-align: center;
 }
 
 .section-title {
 	font-size: 32px;
 	color: #000000;
+	text-align: center;
 }
 
 .section-title:after {
@@ -86,6 +86,7 @@ header {
 	font-size: 16px;
 	color: #000000;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .img-box-group {
@@ -162,13 +163,13 @@ header {
 	width: 980px;
 	padding: 90px 0;
 	margin: 0 auto;
-	text-align: center;
 }
 
 .strength {
 	float: left;
 	width: 320px;
 	height: auto;
+	text-align: center;
 }
 
 .strength:nth-child(1), .strength:nth-child(2) {
@@ -184,6 +185,7 @@ header {
 	font-size: 20px;
 	color: #000000;
 	padding-bottom: 10px;
+	text-align: center;
 }
 
 .strength-text {
@@ -191,6 +193,111 @@ header {
 	color: #000000;
 	text-align: left;
 }
+
+.profile {
+	width: 100%;
+	background-color: #eceff1;
+}
+
+.profile-contents {
+	width: 1024px;
+	padding: 90px 0;
+	margin: 0 auto;
+}
+
+.profile-box {
+	display: inline-block;
+}
+
+.profile-image {
+	width: 512px;
+	float: left;
+}
+
+.profile-image-box {
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	border-radius: 50%;
+	background-image: url(img/my-icon.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.profile-detail {
+	float: left;
+	width: 512px;
+	text-align: left;
+}
+.name {
+	margin-bottom: 20px;
+}
+
+.detail-title {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.detail-text {
+	font-size: 16px;
+	color: #000000;
+}
+
+.contact {
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.contact-contents {
+	width: 800px;
+	padding: 90px 0;
+	margin: 0 auto;
+}
+
+.contact-box {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.contact-box-left {
+	width: 400px;
+	float: left;
+}
+
+.contact-contents-left {
+	width: 130px;
+	margin: 0 auto;
+}
+
+.contact-box-right {
+	width: 400px;
+	float: left;
+}
+
+.contact-contents-right {
+	width: 170px;
+	margin: 0 auto;
+}
+
+.contact-box-title {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+.contact-box-text {
+	color: #212121;
+}
+
+.contact-contents-right i {
+	font-size: 50px;
+	margin-right: 20px;
+}
+
+.contact-contents-right i:last-child {
+	margin-right: 0px;
+}
+
+
 
 footer {
 	height: 60px;
